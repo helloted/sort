@@ -2,8 +2,6 @@
 
 def bubbling_sor(orgin_list):
     length = len(orgin_list)
-    temp = 0
-
     # 从list[0]开始遍历，进行外循环，list[i]作为基准位置比较数
     for i in range(length):
         # 用之后的数值与基准位置的数进行比较，进行内循环
@@ -12,8 +10,6 @@ def bubbling_sor(orgin_list):
             if orgin_list[i] > orgin_list[j]:
                 orgin_list[i],orgin_list[j] = orgin_list[j],orgin_list[i]
     return orgin_list
-
-
 
 
 
