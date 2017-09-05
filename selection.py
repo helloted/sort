@@ -14,7 +14,7 @@ def select_sort(orgin_list):
     for i in range(length-1):
         mi = i
         for j in range(i,length):
-            #找到最小的一个数的位置
+            # 找到最小的一个数的位置
             if orgin_list[j] < orgin_list[mi]:
                 mi = j
         orgin_list[mi],orgin_list[i] = orgin_list[i],orgin_list[mi]
